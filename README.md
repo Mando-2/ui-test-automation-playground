@@ -26,6 +26,10 @@ node app.js
 http://localhost:3000
 ```
 
+## Modifications to this copy
+ - Modified to add the ability to run in docker container
+ - Uses node:20-alpine3.16 image to keep the load time small
+
 ## Software Stack
 - [Node.js](https://github.com/nodejs/node)
 - [Express](https://github.com/expressjs/express/)

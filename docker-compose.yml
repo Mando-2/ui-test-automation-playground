@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  website:
+    build: ./
+    image: uitap-image
+    container_name: uitap-site
+    ports:
+      - "3000:3000"
+
+    
